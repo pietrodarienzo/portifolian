@@ -1,0 +1,106 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+    color: #fff;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Seções */
+section {
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Habilidades */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Projetos */
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.project-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-item:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Rodapé */
+footer {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
